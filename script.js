@@ -31,7 +31,7 @@ function addTaskToDOM(taskText) {
 
     const task = document.createElement('span');
     task.textContent = taskText;
-    task.className = 'text-gray-800 text-lg cursor-pointer task text-medium';
+    task.className = 'text-gray-800 mb-2 text-lg cursor-pointer task text-medium';
 
     // Add strike-through on click
     task.addEventListener('click', () => {
