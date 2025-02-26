@@ -24,7 +24,7 @@ btn.addEventListener('click', () => {
 // Function to add task to DOM
 function addTaskToDOM(taskText) {
     const listItem = document.createElement('div');
-    listItem.className = 'flex justify-between items-center bg-gray-100 p-4 rounded-lg shadow-sm transition duration-200';
+    listItem.className = 'flex justify-between items-center bg-gray-100 p-4 mb-2 rounded-lg shadow-sm transition duration-200';
 
     const taskContainer = document.createElement('div');
     taskContainer.className = 'task-text';
